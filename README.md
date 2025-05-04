@@ -5,6 +5,7 @@ This project visualizes the coverage of men's and women's sports in NYU’s Wash
 
 Overview
 📅 Date Range: 1933 – Present (aggregated monthly)
+
 🧑‍🤝‍🧑 Gender Split: Separate plots for men's and women's sports
 
 🔵 Bubble Size: Number of mentions per sport, per month
