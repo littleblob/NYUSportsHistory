@@ -15,7 +15,7 @@ Overview
 
 🖼️ Branding: Styled with NYU colors and includes NYU logo
 
-Project Structure
+Project Structure:
 DataViz
 ├── Data/
 │   ├── WSB_MenSportAnalysis_viz.csv
