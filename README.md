@@ -9,7 +9,7 @@ Overview
 
 🧑‍🤝‍🧑 Gender Split: Separate plots for men's and women's sports
 
-🔵 Bubble Size: Number of mentions per sport, per month
+🔵 Bubble Size: Corresponds to number of mentions per sport per month
 
 🎨 Color-Coded: Each sport gets a unique color
 
