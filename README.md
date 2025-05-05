@@ -31,6 +31,7 @@ Setup
 ```bash   
 git clone https://github.com/littleblob/NYUSportsHistory.git
 cd NYUSportsHistory
+'''
 
 2. Install dependencies
 Ensure you have Python 3.7+ and install required packages:
