@@ -23,6 +23,7 @@ Overview
 - **Plotly Express & Graph Objects**
 - **Base64 Encoding** (for logo embedding)
 - **CSV data input** (historical sports coverage data)
+- **Visual Studio Code or comparable product** 
 
 ## 📁 File Structure
 
@@ -65,6 +66,7 @@ Open `chart.html` in any web browser.
 2. WSB_WomenSportAnalysis_viz.csv: Contains columns such as Sport and Date of Mention for women's sports. Also contains additional qualitative data such as placement of mention, intersections with other stories of interest, and notes.
 3. Data is grouped by sport and by month using Pandas' crosstab and PeriodIndex.
 4. Each CSV must include a date column (`Date of mention` or `Date of Mention`) and a `Sport` column.
+5. The source data file for Washington Square newspaper sports mentions currently lives in shared Dual Degree Intern Google drive. To run updates to the visualization as new data is collected, simply save each sheet to the csv files enumerated in Inputs 1 and 2. If for any reason, you decide to change the names of the csv files, you must also change them in the code on lines 13 and 14 where the data frame is created. The name of the source file on the Google drive should not effect this. 
 
 ## 📤 Output
 1. chart.html: An interactive HTML file containing the final visualization.
