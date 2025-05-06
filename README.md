@@ -3,7 +3,7 @@ Data Viz Files for NYU Sports History Project
 
 This project visualizes the coverage of men's and women's sports in NYU’s Washington Square Campus student newspaper, the Washington Square Bulletin, subsequently the Washington Square News, beginning im 1933. Using Plotly, it produces an interactive bubble chart showing how often various sports were mentioned over time for both men and women, aggregated by month.
 
-Overview
+## Overview
 
 📅 Date Range: 1933 – Present (aggregated monthly)
 
