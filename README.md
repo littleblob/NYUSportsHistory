@@ -34,12 +34,16 @@ DataViz/
 │   └── WSB_WomenSportAnalysis_viz.csv
 ├── NYU_Short_RGB_White.png
 ├── chart.html
-└── wsbdataviz.py.py
+└── wsbdataviz.py
 ```
 
 ## 🚀 How to Run
 
-### 1. Clone the repository
+### 0. Download Data
+-Save files from Google Drive according to file structure noted above
+
+### 1. (Optional) Clone the repository
+-Open Terminal
 ```bash   
 git clone https://github.com/littleblob/NYUSportsHistory.git
 cd NYUSportsHistory
