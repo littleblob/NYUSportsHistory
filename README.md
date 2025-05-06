@@ -76,9 +76,10 @@ Open `chart.html` in any web browser.
 
 ## 🎨 Customization
 
-- 🎨 Modify color palettes using [`plotly.colors.qualitative`](https://plotly.com/python/discrete-color/)
-- 🧩 Adjust chart size, legends, layout, and font in the script
-- 📅 Extend for weekly/daily aggregations if desired
+- 🎨 Modify color palettes using [`plotly.colors.qualitative`](https://plotly.com/python/discrete-color/). Color is set for each chart on line 32.
+- 🧩 Adjust chart size, legends, layout, and font by modifying the properties delineated in the fig.update functions beginning at line 128.
+- 📅 Play with different aggregations by Month or Year adjusting the parameters of 'freq =' on lines 21 and 26.
+- 🎓 Change out the logo by adding a new .PNG file to line 161. Please note the the file must be .PNG in order to properly convert to base64 using this method. Other file types will require a more complex workaround.
 
 ## 📜 License
 
