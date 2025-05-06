@@ -28,7 +28,7 @@ This project visualizes the coverage of men's and women's sports in NYU’s Wash
 ## 📁 File Structure
 
 ```
-project/
+DataViz/
 ├── Data/
 │   ├── WSB_MenSportAnalysis_viz.csv
 │   └── WSB_WomenSportAnalysis_viz.csv
