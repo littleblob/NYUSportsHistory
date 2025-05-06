@@ -20,7 +20,7 @@ Overview
 ## 🛠️ Technologies Used
 
 - **Python** (Pandas, Plotly)
-- **Plotly Express & Graph Objects**
+- **Plotly, Plotly Express, Subplots, & Graph Objects**
 - **Base64 Encoding** (for logo embedding)
 - **CSV data input** (historical sports coverage data)
 - **Visual Studio Code or comparable product** 
