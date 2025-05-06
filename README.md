@@ -63,7 +63,7 @@ Open `chart.html` in any web browser.
 
 ## 📊 Inputs
 1. WSB_MenSportAnalysis_viz.csv: Contains columns such as Sport and Date of mention for men's sports. Also contains additional qualitative data such as placement of mention, intersections with other stories of interest, and notes.
-2. WSB_WomenSportAnalysis_viz.csv: Contains columns such as Sport and Date of Mention for women's sports. Also contains additional qualitative data such as placement of mention, intersections with other stories of interest, and notes.
+2. WSB_WomenSportAnalysis_viz.csv: Contains columns such as Sport and Date of Mention for women's sports. Also contains additional qualitative data such as placement of mention, intersections with other stories of interest, and notes. Notably, the women's sports file also includes mentions of intramural sports, as at many periods, this was the only mention of women's sports found.
 3. Data is grouped by sport and by month using Pandas' crosstab and PeriodIndex.
 4. Each CSV must include a date column (`Date of mention` or `Date of Mention`) and a `Sport` column.
 5. The source data file for Washington Square newspaper sports mentions currently lives in shared Dual Degree Intern Google drive. To run updates to the visualization as new data is collected, simply save each sheet to the csv files enumerated in Inputs 1 and 2. If for any reason, you decide to change the names of the csv files, you must also change them in the code on lines 13 and 14 where the data frame is created. The name of the source file on the Google drive should not effect this. 
