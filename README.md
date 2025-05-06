@@ -40,10 +40,10 @@ DataViz/
 ## 🚀 How to Run
 
 ### 0. Download Data
--Save files from Google Drive according to file structure noted above
+Save files from Google Drive according to file structure noted above
 
 ### 1. (Optional) Clone the repository
--Open Terminal
+Open Terminal
 ```bash   
 git clone https://github.com/littleblob/NYUSportsHistory.git
 cd NYUSportsHistory
