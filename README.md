@@ -48,6 +48,7 @@ Open Terminal
 git clone https://github.com/littleblob/NYUSportsHistory.git
 cd NYUSportsHistory
 ```
+Save wsbdataviz.py to DataViz folder as outlined in the file structure above.
 
 ### 2. Install dependencies
 
