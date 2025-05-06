@@ -34,7 +34,7 @@ project/
 │   └── WSB_WomenSportAnalysis_viz.csv
 ├── NYU_Short_RGB_White.png
 ├── chart.html
-└── sports_coverage_visualization.py
+└── wsbdataviz.py.py
 ```
 
 ## 🚀 How to Run
@@ -54,7 +54,7 @@ pip install pandas plotly
 ### 3. Run the script
 
 ```bash
-python sports_coverage_visualization.py
+python wsbdataviz.py
 ```
 
 ### 4. View the output
