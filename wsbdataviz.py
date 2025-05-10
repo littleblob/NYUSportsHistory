@@ -57,7 +57,6 @@ fig = make_subplots(rows=2, cols=1, shared_xaxes=True,
 
 # Men's sports bubble plot
 for sport in men_sports:
-    # size_vals = MSNew[sport]
       # Coerce all values to numeric, replace NaNs with 0, ensure consistent type
     size_vals = pd.to_numeric(MSNew[sport], errors='coerce').fillna(0)
     mask = size_vals > 0
@@ -66,9 +65,7 @@ for sport in men_sports:
 
     fig.add_trace(
         go.Scatter(
-            # x=MSNew["date"],
             x=filtered_dates,
-            # y=[sport]*len(MSNew),
             y=[sport] * len(filtered_dates),
             mode='markers',
             name=sport,
@@ -81,9 +78,6 @@ for sport in men_sports:
                 color=men_color_map[sport],
                 line=dict(width=0.5, color='gray')
             ),
-            # legendgroup='men',
-            # showlegend=True,
-            # customdata=list(zip([sport]*len(size_vals), size_vals)),
             customdata=list(zip([sport] * len(filtered_dates), filtered_sizes)),
             hovertemplate="%{x|%b %Y}<br>Sport: %{customdata[0]}<br>Mentions: %{customdata[1]}<extra></extra>"
         ),
@@ -94,7 +88,6 @@ for sport in men_sports:
 for sport in women_sports:
       # Coerce all values to numeric, replace NaNs with 0, ensure consistent type
     size_vals = pd.to_numeric(WSNew[sport], errors='coerce').fillna(0)
-    # size_vals = WSNew[sport]
     # Find valid data points with size > 0
     mask = size_vals > 0
     filtered_dates = WSNew.loc[mask, "date"]
@@ -117,9 +110,6 @@ for sport in women_sports:
                 color=women_color_map[sport],
                 line=dict(width=0.5, color='gray')
             ),
-            # legendgroup='women',
-            # showlegend=True,
-            # customdata=list(zip([sport]*len(size_vals), size_vals)),
             customdata=list(zip([sport] * len(filtered_dates), filtered_sizes)),
             hovertemplate="%{x|%b %Y}<br>Sport: %{customdata[0]}<br>Mentions: %{customdata[1]}<extra></extra>"
         ),
